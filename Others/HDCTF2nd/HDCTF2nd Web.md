@@ -2,7 +2,7 @@
 
 # do_u_know_HTTP
 
-![](.\img\do_u_know_HTTP.jpg)
+![](./img/do_u_know_HTTP.jpg)
 
 HDCTF{U_must_konw_all_kinds_of_network_protocols_such_as_HTTP}
 
@@ -34,7 +34,7 @@ HDCTF{72595ef46cff90ccb8dd99a177721bc5}
 
 响应头存在提示
 
-![](.\img\erciyuan.jpg)
+![](./img/erciyuan.jpg)
 
 给出了加密方式 bin2hex(base64_encode(gzdeflate($file)))
 
@@ -45,7 +45,7 @@ echo bin2hex(base64_encode(gzdeflate('index.php')));
 
 得到 7938784c536133514b38676f4141413d，访问 ?img=7938784c536133514b38676f4141413d 可以得到源码
 
-![](.\img\erciyuan2.jpg)
+![](./img/erciyuan2.jpg)
 
 解码之后为
 
